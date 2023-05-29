@@ -47,8 +47,6 @@ public class WeatherServiceImpl implements WeatherService {
 
         IPAddressRequest ipAddressEntity = saveRequestLog(ipAddress);//1 request logs
 
-        //ipAddress = "5.178.192.251"; //TODO: remove after deployment
-
         GeolocationDto geolocation = getGeolocation(ipAddress);
         saveGeolocation(geolocation, ipAddressEntity); //2
 
