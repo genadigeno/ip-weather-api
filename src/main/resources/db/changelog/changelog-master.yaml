@@ -1,0 +1,12 @@
+databaseChangeLog:
+  - preConditions:
+      - dbms:
+          type: postgresql
+      - runningAs:
+          username: postgres
+  - include:
+      file: /db/changeLog/changes/1-create-ip-requests-table.sql
+  - include:
+      file: classpath:/db/changelog/changes/2-create-geolocations-table.sql
+  - include:
+      file: classpath:/db/changelog/changes/3-create-weather-conditions-table.sql
