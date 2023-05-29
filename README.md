@@ -13,3 +13,12 @@ Determining weather based on your IP address
 | 100% | 72% | 85% |
   
 Average Test Coverage: 86%
+
+  Used Technologies: 
+* Java 17
+* Spring Boot 3.x
+* PostgreSQL
+* JUnit 5/Mockito
+* Lombok
+* Liquibase
+* MapStruct
