@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+run-app-on-aws.bat
+run-app.bat
